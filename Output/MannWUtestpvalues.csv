@@ -1,0 +1,16 @@
+"drug_1","drug_2","p_values"
+"PipTaz","Cefuroxime",0.167158796896421
+"PipTaz","Gentamicin",0.0466210378334893
+"PipTaz","AmoxiClav",0.00434846493941422
+"PipTaz","Ceftazidime",0.0152232900168133
+"PipTaz","Ciprofloxacin",0.000220114317254012
+"Cefuroxime","Gentamicin",0.424613410858537
+"Cefuroxime","AmoxiClav",0.0529120847618053
+"Cefuroxime","Ceftazidime",0.178310067027301
+"Cefuroxime","Ciprofloxacin",0.00328105191898063
+"Gentamicin","AmoxiClav",0.409795131089627
+"Gentamicin","Ceftazidime",0.563624872100174
+"Gentamicin","Ciprofloxacin",0.0476536509796177
+"AmoxiClav","Ceftazidime",1
+"AmoxiClav","Ciprofloxacin",0.0991024918806375
+"Ceftazidime","Ciprofloxacin",0.264955689459162
