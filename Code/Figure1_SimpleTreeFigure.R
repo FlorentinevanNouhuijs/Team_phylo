@@ -5,8 +5,7 @@
 rm(list = ls())
 
 ###set working directory 
-#setwd("~/folder/subfolder")
-###
+setwd("~/Documents/GitHub/Team_phylo")
 
 ## read tree from string
 library(ape)
