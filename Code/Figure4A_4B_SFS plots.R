@@ -41,7 +41,7 @@ make.SFS <- function(df, title) {
 }
 
 #Plot Figure 4b 
-png("Output/SFS_Fig3B_nov2022.png", width = 6, height = 4.5, units = "in", res = 200) #UNCOMMENT LATER
+png("Output/SFS_Fig4B_May2024.png", width = 6, height = 4.5, units = "in", res = 200) #UNCOMMENT LATER
 make.SFS(clusterDF_normalized, title = "Clustersize counts") 
 dev.off()
 
@@ -58,7 +58,7 @@ PlotNumClusters <-ggplot(data=df_totalNumClusters, aes(x = Drug, y = sum, fill=D
   theme_bw()+
   theme(legend.position = "none")
 
-#Plot Figure 4B 
-png("Output/Figure3APlotNumClusters.png", width = 6, height = 4, units = "in", res = 200)
+#Plot Figure 4A 
+png("Output/Figure4APlotNumClusters.png", width = 6, height = 4, units = "in", res = 200)
 PlotNumClusters
 dev.off()
