@@ -8,7 +8,7 @@ library(dplyr)
 
 setwd("~/Documents/GitHub/Team_phylo")
 
-source("Scripts/Script_for_paper/TreeFunctions.R") # importing functions from a separate R script
+source("Code/TreeFunctions.R") # importing functions from a separate R script
 treefile = paste0("Data/cleaned_core_alignments.contree") # read tree from the contree file
 myTree <- ape::read.tree(treefile) # load tree
 
