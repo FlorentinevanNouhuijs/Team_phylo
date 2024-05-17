@@ -9,7 +9,7 @@ library(RColorBrewer)
 
 
 options(dplyr.summarise.inform = FALSE)
-setwd("~/Dropbox/Team-Phylo/")
+setwd("~/Documents/GitHub/Team_phylo")
 
 clusterDF <- read.csv(file = "Output/ClusterSizeDF_Nov2022.csv", header = TRUE) # read in cluster df 
 DrugsToKeep <- c('Ciprofloxacin', "Gentamicin",  "Cefuroxime", "Ceftazidime", "AmoxiClav", "PipTaz")
