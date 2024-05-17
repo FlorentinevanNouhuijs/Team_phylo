@@ -6,7 +6,7 @@ library(RRphylo) # library that contains phyloclust function
 library(tidyr)
 library(dplyr)
 
-setwd("~/Dropbox/Team-Phylo/") 
+setwd("~/Documents/GitHub/Team_phylo")
 
 source("Scripts/Script_for_paper/TreeFunctions.R") # importing functions from a separate R script
 treefile = paste0("Data/cleaned_core_alignments.contree") # read tree from the contree file
