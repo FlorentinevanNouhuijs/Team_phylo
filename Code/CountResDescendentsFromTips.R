@@ -5,7 +5,7 @@
 #use getDescendants(tree, node, curr=NULL) to get all the descendents.
 #determine how many of the descencents are resistant.
 library(phytools)
-setwd("~/Dropbox/Team-Phylo/")
+setwd("~/Documents/GitHub/Team_phylo")
 #ClusterSizeDF<-data.frame(Drug = c(), phylogroup = c(), clustersize = c())
 ClusterSizeDF<-setNames(data.frame(matrix(ncol = 4, nrow = 0)), c("Drug", "phylogroup", "clustersize", "lastresistantparent"))
 
@@ -15,7 +15,7 @@ CompleteTree <- ape::read.tree("Data/cleaned_core_alignments.contree") # load tr
 DrugList = c("Cefuroxime", "Gentamicin", "AmoxiClav", "Ceftazidime", "Ciprofloxacin", "PipTaz")
 PhyloGroupList = c("A", "B1", "B2", "D") #REMOVE F BECAUSE IT IS PART OF D
 
-source("Scripts/Script_for_paper/TreeFunctions.R")
+source("Code/TreeFunctions.R")
 
 for (Drug in DrugList){
 #Drug = "Ceftazidime"
